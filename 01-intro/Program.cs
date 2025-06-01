@@ -55,5 +55,10 @@ class Program
 
         System.Boolean isNumeric = false;
         Console.WriteLine(isNumeric);
+
+        string txt2 = "Our Father in heaven!";
+        char ch6 = txt2[4];
+        char ch7 = txt2[14];
+        Console.WriteLine($"{ch6} : {ch7}");
     }
 }
